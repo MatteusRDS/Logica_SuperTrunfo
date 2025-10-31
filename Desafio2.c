@@ -14,7 +14,7 @@ int main() {
     int populacao2, pontos2;
     float area2, pib2;
 
-    // === Coleta de informações da Carta 1 ===
+    // === Coletando informações da Carta 1 ===
     printf("Digite as informações da Carta 1:\n");
     printf("Estado (letra): ");
     scanf(" %c", &estado1);
@@ -37,7 +37,7 @@ int main() {
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos1);
 
-    // === Coleta de informações da Carta 2 ===
+    // === Coletando informações da Carta 2 ===
     printf("\nDigite as informações da Carta 2:\n");
     printf("Estado (letra): ");
     scanf(" %c", &estado2);
@@ -92,7 +92,7 @@ int main() {
 
     // === Comparação de atributo ===
     // Você pode mudar o atributo que quer comparar aqui:
-    // Opções: populacao, area, pib, densidadePopulacional, pibPerCapita
+   
     printf("\n=== Comparação de Cartas (Atributo: PIB per Capita) ===\n");
 
     if (pibPerCapita1 > pibPerCapita2) {
